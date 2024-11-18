@@ -1,0 +1,395 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f5f0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+header {
+    text-align: center;
+    background-color: #fcf4e6;
+    padding: 20px 0;
+}
+
+header h1 {
+    font-size: 24px;
+    color: #d46432;
+}
+
+header .subtext {
+    font-size: 14px;
+    color: #787878;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #4f899b;
+    padding: 10px 0;
+}
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+
+main {
+    display: flex;
+    margin-top: 20px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+
+.sidebar{
+    background-color: #ECB15A;
+    display: flex;
+    flex-direction: column;
+}
+.siderbar p {
+    color:white;
+}
+.sidebar img {
+    width: 150px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+}
+.footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #FFD89C;
+    margin-top: 20px;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0096FF;
+    padding: 10px 20px;
+
+}
+header .navbar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    margin-top: 102px;
+    margin-left: -20px;
+    display: flex;
+    gap: 20px;
+    background-color: #8cb9bd;
+    width: 100%;
+    max-width: 960px;
+}
+.nav-bar a:hover{
+    color:#FF1493;
+}
+
+.menu a:hover{
+    color:Blue;
+}
+.search-bar button:hover{
+    color:#FF1493;
+}
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo h1 {
+    color: #FF1493;
+    font-size: 24px;
+}
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo-img {
+    width: 50px; 
+    height: 50px; 
+    margin-right: 10px;
+
+}
+.nav-bar a {
+    color: rgb(21, 0, 255);
+    margin-left: 15px;
+    text-decoration: none;
+}
+.search-bar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #87CEEB;
+}
+
+.search-bar input[type="text"] {
+    padding: 8px;
+    width: 200px;
+    border-radius: 4px;
+    border: 1px solid #FF1493;
+    background-color:#a91fee;
+}
+
+.search-bar button {
+    padding: 8px 16px;
+    margin-left: 5px;
+    border-radius: 4px;
+    background-color:#0000FF;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.menu {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.menu a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.product-grid {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.product {
+    background-color:#18dcdc;
+    width: 180px;
+    text-align: center;
+    margin: 10px;
+    border-radius: 10px;
+    padding: 15px;
+    color:black;
+}
+.product :hover{
+    background-color:#FF1493 ;
+}    
+.product img {
+    width:50% ;
+    
+    border-radius: 5px;
+}
+
+.product p {
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+.price {
+    font-size: 18px;
+    color: #008080;
+    font-weight: bold;
+}
+
+.footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #FFD89C;
+    margin-top: 20px;
+}
+.wrapper {
+    max-width: 960px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+}
+
+.icon {
+    width: 10%;
+    margin: 10px;
+    margin-right: 10px;
+}.logo img{
+    width: 25px;
+    
+}
+.main-content article {
+    margin-bottom: 20px;
+    padding :20px;
+    border-radius: 5px;
+}
+.main-content img {
+    width: 35%;
+    height: auto;
+    float: left;
+    margin-right: 15px;
+}
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    background-color: #8cb9bd; 
+    text-align: center;
+} 
+
+.site-info h1 {
+    text-align: center;
+    font-size: 2em;
+    text-transform: uppercase; 
+    font-family: 'Pacifico', cursive; 
+    color: #b67352; 
+}
+  
+.site-info p {
+    text-align: center;
+    font-size: 1em;
+    color: #b67352;
+}
+.navbar ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 1em;
+}
+.navbar li {
+    display: inline;
+}
+  
+.navbar a {
+    text-decoration: none;
+    color: #333; 
+}
+.main {
+    display: flex;
+    gap: 2%;
+}
+
+.sidebar {
+    flex: 0 0 30%;
+    background-color: #ecb159;
+    padding: 20px;
+}
+.sidebar h2,
+.sidebar h3 {
+    font-family: 'Pacifico', cursive;
+    color:white;
+}
+.sidebar p{
+    color:white;
+}
+.sidebar img {
+    width: 100%;
+    margin-top: 10px;
+}
+.navbar ul{
+    margin:0px;
+}
+.navbar ul li {
+    float:left;
+    list-style: none;
+    padding:25px 13px ;
+}
+.navbar ul li:hover{
+    background-color:brown;
+}
+.navbar ul li a:hover{
+    color:red;
+}
+.navbar ul li a{
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color:white;
+}
+.main-content {
+    flex: 0 0 68%;
+}
+  
+.main-content article {
+    background-color: #fefbf6; 
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 5px;
+}  
+.main-content h2 {
+    font-family: 'Pacifico', cursive;
+    color: #b67352; 
+}
+.main-content h5 {
+    font-family: 'Pacifico', cursive;
+    color: #8cb9bd; 
+}
+
+.follow {
+    background-color: #f4a556;
+    padding: 15px;
+    text-align: left;
+    color: white;
+}
+
+.follow p {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.icons {
+    display: flex;
+    gap: 10px;
+}
+
+.icons a {
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    
+}
+.follow {
+    text-align: left;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #f4a556; /* Màu cam */
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+}
+
+.follow p {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.follow .icons {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.follow .icons a img {
+    width: 30px;
+    height: 30px;
+    transition: transform 0.2s ease-in-out;
+}
+
+.follow .icons a img:hover {
+    transform: scale(1.2);
+}
